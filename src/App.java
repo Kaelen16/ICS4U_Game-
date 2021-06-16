@@ -53,6 +53,6 @@ public class App {
         Player winningPlayer = players.get(winner);
         System.out.println("Winner is " + winningPlayer.getFullName() + " with " + winningPlayer.getHand().getCardString(winningPlayer.getHand().searchCard()));
         
-        
+        System.out.println("Game Over!");
     }
 }

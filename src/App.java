@@ -35,7 +35,7 @@ public class App {
 
 
 
-        Dealer dealer = new Dealer("James", "Smith", "ed4gg5h6");
+        Dealer dealer = new Dealer("James", "Smith", "h4j4hj4j23k");
 
 
         dealer.shuffle();
@@ -52,6 +52,7 @@ public class App {
         //System.out.println("The winner = " + winner);
         Player winningPlayer = players.get(winner);
         System.out.println("Winner is " + winningPlayer.getFullName() + " with " + winningPlayer.getHand().getCardString(winningPlayer.getHand().searchCard()));
+        
         
     }
 }
